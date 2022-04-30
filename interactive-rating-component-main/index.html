@@ -12,38 +12,74 @@
   <style>
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
+    body {
+      font-family: 'Prompt', sans-serif;
+      background-color: #141518;
+    }
   </style>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet"  href="main.css">
 </head>
 <body>
 
   <!-- Rating state start -->
+  <div class="container">
+    <div class="card">
+      <div class="">
+        <img class="card__icon" src="images/icon-star.svg">
+      </div>
+      <div class="card__title">
+        How did we do?
+      </div>
 
-  How did we do?
+      <div class="card__subtitle">
+        Please let us know how we did with your support request. All feedback is appreciated 
+        to help us improve our offering!
+      </div>
+      <div class="card__request">
+        <div class="request__selectd">
+          <span>1</span>
+        </div>
+        <div class="request__selectd">
+          <span>2</span>
+        </div>
+        <div class="request__selectd">
+          <span>3</span>
+        </div>
+        <div class="request__selectd">
+          <span>4</span>
+        </div>
+        <div class="request__selectd">
+          <span>5</span>
+        </div>
+      </div>
+      <button class="button button--orange font-weight-bold pointer">
+        SUBMIT
+      </button>
+    </div>
+  
+    <!-- Rating state end -->
+  
+    <!-- Thank you state start -->
+  
+    <!-- You selected Add rating here out of 5 -->
+  
+    <!-- Thank you!
+  
+    We appreciate you taking the time to give a rating. If you ever need more support, 
+    don’t hesitate to get in touch! -->
+  
+    <!-- Thank you state end -->
 
-  Please let us know how we did with your support request. All feedback is appreciated 
-  to help us improve our offering!
+  </div>
 
-  1 2 3 4 5
-
-  Submit
-
-  <!-- Rating state end -->
-
-  <!-- Thank you state start -->
-
-  You selected <!-- Add rating here --> out of 5
-
-  Thank you!
-
-  We appreciate you taking the time to give a rating. If you ever need more support, 
-  don’t hesitate to get in touch!
-
-  <!-- Thank you state end -->
 
   
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    Coded by <a href="#">Puncharasx</a>.
   </div>
 </body>
 </html>
